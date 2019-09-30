@@ -1,1 +1,18 @@
- 
+table
+{
+	margin:auto;
+	margin-top:10%;
+}
+
+td, th
+{
+	border: 1px solid black;
+	text-align:center;
+	font-size:2em;
+}
+
+th
+{
+	width:650px;
+	height:40px;
+}
