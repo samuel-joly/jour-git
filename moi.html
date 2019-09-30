@@ -8,61 +8,72 @@
 	</head>
 	
 	<body>
-		<table>
+	
+		<table id='mainTable'>
 			<tr>
 				<th>Commandes</th>
 				<th>Description</th>
 			</tr>
 			
 			<tr>
-				<td>git init</td>
-				<td>Initialise Git in the current working directory</td>
+				<td class='StepUn'>git init</td>
+				<td class='StepUn'>Initialise Git in the current working directory</td>
 			</tr>
 			
 			<tr>
-				<td>git log</td>
-				<td>Show every commit on file made on this branch of the project</td>
+				<td class='StepUn'>git log</td>
+				<td class='StepUn'>Show every commit on file made on this branch of the project</td>
 			</tr>	
 
 			<tr>
-				<td>git remote</td>
-				<td>Show a list of remote linked to this git directory</td>
+				<td class='StepUn'>git remote</td>
+				<td class='StepUn'>Show a list of remote linked to this git directory</td>
 			</tr>
 
 			<tr>
-				<td>git remote add {remoteName} {url}</td>
-				<td>Add a new remote named remoteName linked to GitHub URL</td>
+				<td class='StepUn'>git remote add {remoteName} {url}</td>
+				<td class='StepUn'>Add a new remote named remoteName linked to GitHub URL</td>
 			</tr>	
 
 			<tr>
-				<td>git add {filename}</td>
-				<td>Add filename to your git for futur commits</td>
+				<td class='StepUn'>git add {filename}</td>
+				<td class='StepUn'>Add filename to your git for futur commits</td>
 			</tr>	
 
 			<tr>
-				<td>git commit -m "My message"</td>
-				<td>Allow to commit "My message" on the lastest modification added to git</td>
+				<td class='StepUn'>git commit -m "My message"</td>
+				<td class='StepUn'>Allow to commit "My message" on the lastest modification added to git</td>
+			</tr>	
+
+			<tr>
+				<td class='StepUn'>git revert {commitName}</td>
+				<td class='StepUn'>Undo and reset the file before the commitName</td>
 			</tr>	
 			
 			<tr>
-				<td>git clone {url} {Directory}</td>
-				<td>Download the selected git URL to selected Directory</td>
+				<td class='StepDeux'>git clone {url} {Directory}</td>
+				<td class='StepDeux'>Download the selected git URL to selected Directory</td>
 			</tr>	
 			
 			<tr>
-				<td>git remote remove {remoteName}</td>
-				<td>Remove remoteName from the linked remote</td>
+				<td class='StepDeux'>git remote remove {remoteName}</td>
+				<td class='StepDeux'>Remove remoteName from the linked remote</td>
 			</tr>	
 			
 			<tr>
-				<td>git push {remoteName} master</td>
-				<td>Push your local git directory on GitHub</td>
+				<td class='StepDeux'>git push {remoteName} master</td>
+				<td class='StepDeux'>Push your local git directory on GitHub</td>
 			</tr>
 			
+		</table>
+
+		<table id='legendTable'>
 			<tr>
-				<td>git revert {commitName}</td>
-				<td>Undo and reset the file before the commitName</td>
-			</tr>	
+				<td class='StepUn'>No need of gitHub</td>
+			</tr>
+			<tr>
+				<td class='StepDeux'>Need gitHub</td>
+			</tr>
 		</table>
 	</body>
 

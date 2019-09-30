@@ -1,7 +1,14 @@
-table
+#mainTable
 {
 	margin:auto;
 	margin-top:10%;
+}
+
+#legendTable
+{
+	width:325px;
+	margin:auto;
+	
 }
 
 td, th
@@ -15,4 +22,14 @@ th
 {
 	width:650px;
 	height:40px;
+}
+
+.StepUn
+{
+	background-color:orange;
+}
+
+.StepDeux
+{
+	background-color:yellow;
 }
